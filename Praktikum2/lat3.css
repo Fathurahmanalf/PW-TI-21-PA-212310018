@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+nav {
+    height: 60px;
+    background-color: rgb(11, 85, 197);
+    overflow: hidden;
+}
+li {
+    line-height: 60px;
+    float: left;
+}
+li a {
+    padding: 25px;
+    color: white;
+}
+li a:hover {
+    background-color: aqua;
+}
+
+.pertama{
+    text-align: center;
+    background-color: aquamarine;
+    height: 300px;
+}
+
+.pertama h1{
+    font-size: 70px;
+    padding-top: 10px;
+}
+
+.pertama p{
+    margin-top: 10px;
+}
+
+article{
+    padding: 20px;
+    text-align: center;
+}
+
+.isi {
+    text-align: left;
+    display: inline-block;
+    width: 400px;
+    border: 2px solid blue;
+    min-height: 360px;
+    overflow: hidden;
+    margin-right: 70px;
+}
+
+.isi p,.isi a {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+        
+.isi a {
+    color: rgb(3, 144, 226);
+    padding: 5px 25px;
+    margin-left: 10px;
+    border: 2px solid rgb(3, 144, 226);
+}
+
+footer{
+    text-align: center; 
+    margin-top: 50px;
+}

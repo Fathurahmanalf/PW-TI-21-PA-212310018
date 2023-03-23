@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Assets/ladang.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px   ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.nama{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.nama{
+    font-size: 100%;
+    color: black;
+    margin-bottom: 20px;
+}
+
+span{
+    color: yellow;
+}
+
+.nama p{
+    color: white;
+    line-height: 22px;
+}
+
+.nama a{
+    color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    outline-color: whitesmoke;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    outline-style: groove;
+
+}
+
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.ABOUT {
+    width: 100%;
+    padding: 100px 0;
+    background-color: beige;
+
+}
+
+.ABOUT-ME{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.ABOUT-TEXT{
+    width: 550px;
+}
+
+.ABOUT-TEXT{
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid red;
+}
+
+
+
+.ABOUT-TEXT p{
+    color: black;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+.SERVICE{
+    background: #101010;
+    width: 100%;
+    font-size: 60px;
+    padding: 100px 0;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    text-align: center;
+    margin: auto;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: white;
+}
+
+.h1{
+    color: azure;
+    font-size: 75px;
+    margin-bottom: 40px;
+}
+
+.pra p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: aquamarine;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px ;
+}
+
+.kontak-saya{
+    width: 100%;
+    background: #191919;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kontak-saya p{
+    color: wheat;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.kontak-saya .button-dua{
+    background-color: aquamarine;
+    color: wheat;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}   
